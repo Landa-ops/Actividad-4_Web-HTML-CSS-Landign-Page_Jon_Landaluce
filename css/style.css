@@ -1,0 +1,514 @@
+/* Reset y ajustes básicos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: #d3d3d3; 
+}
+
+ul {
+    list-style: none;
+}
+
+/* Secciones generales */
+section {
+    padding: 60px 80px;
+}
+
+h1, h2, h3 {
+    color: rgb(137, 66, 188);
+    font-weight: 600;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+p {
+    font-size: 1.1rem;
+    line-height: 1.7;
+}
+
+/* ==== HEADER ==== */
+.main-header {
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
+.main-header .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.logo:hover {
+    color: #0077cc;
+}
+
+/* ==== NAVBAR ==== */
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+    color: #0077cc;
+}
+
+/* ==== HERO SECTION ==== */
+.hero {
+    padding: 100px 0 80px;
+    color: #003366;
+    text-align: center;
+}
+
+.hero .container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.tituloBox {
+    background-color: #f5f5f5;
+    padding: 40px 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 51, 102, 0.1);
+}
+
+.tituloBox h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #004080;
+}
+
+.tituloBox h2 {
+    font-size: 1.8rem;
+    color: #004080;
+    margin: 10px 0;
+}
+
+.tituloBox span {
+    color: #004080;
+    font-weight: 600;
+}
+
+.frase {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin: 10px 0;
+    color: #333;
+}
+
+/* ==== Botón principal ==== */
+.btn-primary {
+    display: inline-block;
+    margin-top: 25px;
+    background-color: #004080;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #005fa3;
+}
+
+/* ==== SECCIÓN ¿QUIÉN SOY? ==== */
+.quien-soy {
+    padding: 50px 30px;
+    background-color: rgba(255, 255, 255, 0.9); 
+    text-align: center;
+    max-width: 960px;
+    margin: auto;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.quien-soy h2 {
+    font-size: 2.2rem;
+    color: #004080;
+    margin-bottom: 20px;
+}
+
+.quien-soy p {
+    max-width: 800px;
+    margin: 20px auto;
+    font-size: 1.2em;
+    line-height: 1.6;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.quien-soy img {
+    width: 200px;
+    border-radius: 50%;
+
+}
+
+/* ==== SECCIÓN HERO ==== */
+.hero {
+    padding: 100px 0 80px;
+    color: #003366;
+    text-align: center;
+}
+
+.hero .container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.tituloBox {
+    background-color: #f5f5f5;
+    padding: 40px 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 51, 102, 0.1);
+}
+
+.tituloBox h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #002244;
+}
+
+.tituloBox h2 {
+    font-size: 1.8rem;
+    color: #004080;
+    margin: 10px 0;
+}
+
+.tituloBox span {
+    color: #0066cc;
+    font-weight: 600;
+}
+
+.frase {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin: 10px 0;
+    color: #333;
+}
+
+/* ==== Botón principal ==== */
+.btn-primary {
+    display: inline-block;
+    margin-top: 25px;
+    background-color: #0077cc;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+
+/* ==== SECCIÓN SOBRE MÍ ==== */
+.sobre-mi {
+    padding: 50px 30px;
+    background-color: rgba(255, 255, 255, 0.9);
+    color: #333;
+    text-align: center;
+    max-width: 960px;
+    margin: 50px auto; 
+    border-radius: 15px; 
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.sobre-mi h2 {
+    font-size: 2.2rem;
+    color: #004080;
+    margin-bottom: 20px;
+}
+
+.sobre-mi p {
+    max-width: 800px;
+    margin: 20px auto;
+    font-size: 1.2em;
+    line-height: 1.6;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+/* ==== SECCIÓN CURRÍCULUM VITAE ==== */
+.cv {
+    padding: 50px 30px;
+    background-color: rgba(255, 255, 255, 0.9); 
+    color: #333;
+    text-align: center;
+    max-width: 960px;
+    margin: 50px auto; 
+    border-radius: 15px; 
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.cv h2 {
+    font-size: 2.2rem;
+    color: #004080; 
+    margin-bottom: 20px;
+}
+
+.cv-content h3 {
+    font-size: 1.8rem;
+    color: #ffffff; 
+    background-color: #004080;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+.cv-content h4 {
+    font-size: 1.5rem;
+    color: #ffffff; 
+    background-color: #b6b2b2;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+
+.cv-content p {
+    max-width: 800px;
+    margin: 20px auto;
+    font-size: 1.2em;
+    line-height: 1.6;
+    background-color: rgba(240, 240, 240, 0.9); 
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.cv-content ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.cv-content ul li {
+    margin-bottom: 10px;
+}
+
+.cv-content .experience,
+.cv-content .education,
+.cv-content .certifications {
+    margin-bottom: 30px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.cv-content a.btn-primary {
+    display: inline-block;
+    background-color: #004080; 
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    margin-top: 20px;
+}
+
+.cv-content a.btn-primary:hover {
+    background-color: #2980b9; 
+}
+
+
+/* ==== SECCIÓN PROYECTOS ==== */
+.proyectos {
+    padding: 50px 30px;
+    background-color: rgba(255, 255, 255, 0.9); 
+    color: #333;
+    text-align: center;
+    max-width: 960px; 
+    margin: 50px auto; 
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); 
+}
+
+.proyectos h2 {
+    font-size: 2.2rem;
+    color: #004080;
+    margin-bottom: 30px;
+}
+
+.proyectos-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.proyecto {
+    background-color: rgba(223, 223, 223, 0.9); 
+    padding: 20px;
+    border-radius: 10px;
+    width: 250px;
+    text-align: center;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.proyecto h3 {
+    font-size: 1.5rem;
+    color: #004080; 
+    margin-bottom: 10px;
+}
+
+.proyecto p {
+    font-size: 1.1em;
+    color: #555;
+}
+
+.proyecto:hover {
+    background-color: #cce7ff;
+    transform: translateY(-5px);
+}
+
+.proyecto:hover h3 {
+    color: #3f51b5; 
+}
+
+
+/* ==== FORMULARIO DE CONTACTO ==== */
+.formulario-contacto {
+    padding: 50px 30px;
+    background-color: rgba(255, 255, 255, 0.9); 
+    color: #333;
+    text-align: center;
+    max-width: 960px;
+    margin: 50px auto;
+    border-radius: 15px; 
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); 
+}
+
+.formulario-contacto h1 {
+    font-size: 2.5rem;
+    color: #004080; 
+    margin-bottom: 30px;
+}
+
+.formulario-contacto form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.formulario-contacto input,
+.formulario-contacto textarea {
+    padding: 15px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+    transition: all 0.3s ease;
+    background-color: #f9f9f9; 
+}
+
+.formulario-contacto input:focus,
+.formulario-contacto textarea:focus {
+    border-color: #3f51b5;
+    outline: none;
+}
+
+.formulario-contacto button {
+    background-color: #004080;
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.formulario-contacto button:hover {
+    background-color: #004080;
+}
+
+
+/* ==== FOOTER ==== */
+.footer {
+    background-color: #333;
+    padding: 20px 100px;
+    color: #fff;  
+    text-align: center;
+    font-size: 1rem;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer .copyright {
+    font-size: 1rem;
+    color: #fff; 
+    margin-bottom: 20px;
+}
+
+.footer .copyright p {
+    margin: 0;
+    line-height: 1.5;
+}
+
+.footer .redesSociales {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.footer .redesSociales li {
+    display: inline-block;
+}
+
+.footer .redesSociales a {
+    text-decoration: none;
+    color: #fff; 
+    font-size: 1.5rem;
+    transition: color 0.3s ease;
+}
+
+.footer .redesSociales a:hover {
+    color: #3f51b5;
+}
+
+
+
+
+
+
